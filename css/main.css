@@ -69,16 +69,19 @@ footer {
 
   #column-2 {
     background-color: #20b2aa ;
-  }
+      }
 
   #column-3 {
     background-color: coral ;
+    width: 100%;
   }
 
   footer {
-    background-color: #FFA07A;
+    background-color: #270f06;
   }
-  
+  .col-3 {
+    width:50%;
+  }
 }
 
 
@@ -89,19 +92,24 @@ footer {
   }
 
   #column-1 {
-    background-color:#6E7C7C ;
+    background-color:#6E7C7C;
   }
 
   #column-2 {
-    background-color:#435560 ;
+    background-color:#435560;
   }
 
   #column-3 {
-    background-color:#92967D ;
+    background-color:#92967D;
+    width: 33.3%;
+    /* why is the above width necessary? */
   }
 
   footer {
-    background-color:#6E7C7C ;
+    background-color:#171919 ;
   }
-   
+
+  .col-3 {
+    width: 33.3%;
+  }
 }
